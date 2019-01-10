@@ -1,3 +1,13 @@
+@media only screen and (min-width: 768px) {
+  .navbar-fixed .nav-wrapper .brand-logo img {
+    height: 65px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-fixed .nav-wrapper .brand-logo img {
+    height: 55px;
+  }
+}
 .slider .btn {
   margin-top: 20px;
 }
@@ -18,4 +28,8 @@
 
 .section-contact h5 {
   margin-bottom: 30px;
+}
+
+.dropdown-content.nested {
+  overflow-y: visible;
 }
